@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.TreeSet;
 import java.util.Set;
@@ -82,6 +83,15 @@ public class Exercises
         System.out.println("8th exercise: Write a Java program to convert a hash set to a tree set");
         Set<String> treeSet = new TreeSet<>(set);
         System.out.println(treeSet);
+        System.out.println();
+    }
+
+    
+    public void exercise9(HashSet<String> set)
+    {
+        System.out.println("9th exercise: Write a Java program to convert a hash set to a List/ArrayList");
+        ArrayList<String> list = new ArrayList<>(set);
+        System.out.println(list);
         System.out.println();
     }
 

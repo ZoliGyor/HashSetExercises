@@ -13,5 +13,6 @@ public class Main
         set1.exercise6(set1.getSet(), set2.getSet());
         set1.exercise7(set1.getSet());
         set1.exercise8(set1.getSet());
+        set1.exercise9(set1.getSet());
     }
 }
