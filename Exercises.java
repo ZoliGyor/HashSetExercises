@@ -95,6 +95,31 @@ public class Exercises
         System.out.println();
     }
 
+    public void exercise10(HashSet<String> set1, HashSet<String> set2)
+    {
+        System.out.println("10th exercise: Write a Java program to compare two hash set");
+        System.out.println(set1);
+        System.out.println(set2);
+        boolean theyAreSame = true;
+        if(set1.size() != set2.size()){
+            theyAreSame = false;
+        }else{
+            ArrayList<String> list1 = new ArrayList<>(set1);
+            ArrayList<String> list2 = new ArrayList<>(set2);
+            for(int i = 0; i < list1.size(); i++){
+                if(!list2.contains(list1.get(i))){
+                    theyAreSame = false;
+                    System.out.println(i+1);
+                }
+            }
+        }
+        if(theyAreSame){
+            System.out.println("The 2 sets are the same");
+        }else{
+            System.out.println("The 2 sets are not the same");
+        }
+        System.out.println();
+    }
 
     public HashSet<String> getSet()
     {
