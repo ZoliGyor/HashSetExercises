@@ -63,6 +63,17 @@ public class Exercises
         System.out.println();
     }
 
+    public void exercise7(HashSet<String> set)
+    {
+        System.out.println("7th exercise: Write a Java program to convert a hash set to an array");
+        String[] arrayFromSet = new String[set.size()];
+        arrayFromSet = set.toArray(arrayFromSet);
+        for(int i = 0; i < arrayFromSet.length; i++){
+            System.out.println(arrayFromSet[i]);
+        }
+        System.out.println();
+    }
+
     public HashSet<String> getSet()
     {
         return set;
