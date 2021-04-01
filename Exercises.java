@@ -32,6 +32,27 @@ public class Exercises
         System.out.println();
     }
 
+    public void exercise4(HashSet<String> set)
+    {
+        System.out.println("4th exercise: Write a Java program to empty an hash set");
+        System.out.println(set);
+        set.clear();
+        System.out.println(set);
+        System.out.println();
+    }
+
+    public void exercise5(HashSet<String> set)
+    {
+        System.out.println("5th exercise: Write a Java program to test a hash set is empty or not");
+        System.out.println("The set is: " + set);
+        if(set.isEmpty()){
+            System.out.println("The set is empty");
+        }else{
+            System.out.println("The set is not empty");
+        }
+        System.out.println();
+    }
+
     public HashSet<String> getSet()
     {
         return set;
