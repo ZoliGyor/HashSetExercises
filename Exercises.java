@@ -25,6 +25,13 @@ public class Exercises
         System.out.println();
     }
 
+    public void exercise3(HashSet<String> set)
+    {
+        System.out.println("3rd exercise: Write a Java program to get the number of elements in a hash set");
+        System.out.println("The number of elements in the list is: " + set.size());
+        System.out.println();
+    }
+
     public HashSet<String> getSet()
     {
         return set;

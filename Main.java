@@ -6,5 +6,6 @@ public class Main
 
         exercises.exercise1(exercises.getSet(), "DM");
         exercises.exercise2(exercises.getSet());
+        exercises.exercise3(exercises.getSet());
     }
 }
