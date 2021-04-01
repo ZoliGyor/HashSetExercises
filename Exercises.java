@@ -121,6 +121,16 @@ public class Exercises
         System.out.println();
     }
 
+    public void exercise11(HashSet<String> set1, HashSet<String> set2)
+    {
+        System.out.println("11th exercise: Write a Java program to compare two sets and retain elements which are same on both sets");
+        System.out.println(set1);
+        System.out.println(set2);
+        set1.retainAll(set2);
+        System.out.println(set1);
+        System.out.println();
+    }
+    
     public HashSet<String> getSet()
     {
         return set;
