@@ -18,6 +18,13 @@ public class Exercises
         System.out.println();
     }
 
+    public void exercise2(HashSet<String> set)
+    {
+        System.out.println("2nd exercise: Write a Java program to iterate through all elements in a hash list");
+        System.out.println(set);
+        System.out.println();
+    }
+
     public HashSet<String> getSet()
     {
         return set;
