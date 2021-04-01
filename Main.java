@@ -18,5 +18,7 @@ public class Main
 
         set2.exercise1(set2.getSet(), "DM");
         set1.exercise11(set1.getSet(), set2.getSet());
+        
+        set1.exercise12(set1.getSet());
     }
 }

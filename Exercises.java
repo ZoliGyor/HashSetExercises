@@ -131,6 +131,15 @@ public class Exercises
         System.out.println();
     }
     
+    public void exercise12(HashSet<String> set)
+    {
+        System.out.println("12th exercise: Write a Java program to remove all of the elements from a hash set");
+        System.out.println(set);
+        set.removeAll(set);
+        System.out.println(set);
+        System.out.println();
+    }
+    
     public HashSet<String> getSet()
     {
         return set;
