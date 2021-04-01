@@ -53,6 +53,16 @@ public class Exercises
         System.out.println();
     }
 
+    public void exercise6(HashSet<String> set1, HashSet<String> set2)
+    {
+        System.out.println("Write a Java program to clone a hash set to another hash set");
+        System.out.println("The first set is currently is: " + set1);
+        System.out.println("The second set is currently is: " + set2);
+        set2 = (HashSet<String>)set1.clone();
+        System.out.println("The second set after cloning: " + set2);
+        System.out.println();
+    }
+
     public HashSet<String> getSet()
     {
         return set;
