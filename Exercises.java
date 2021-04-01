@@ -1,4 +1,6 @@
 import java.util.HashSet;
+import java.util.TreeSet;
+import java.util.Set;
 
 public class Exercises
 {
@@ -73,6 +75,16 @@ public class Exercises
         }
         System.out.println();
     }
+
+
+    public void exercise8(HashSet<String> set)
+    {
+        System.out.println("8th exercise: Write a Java program to convert a hash set to a tree set");
+        Set<String> treeSet = new TreeSet<>(set);
+        System.out.println(treeSet);
+        System.out.println();
+    }
+
 
     public HashSet<String> getSet()
     {
