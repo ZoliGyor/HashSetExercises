@@ -20,5 +20,6 @@ public class Main
         set1.exercise11(set1.getSet(), set2.getSet());
         
         set1.exercise12(set1.getSet());
+        // just a test to see if this works :)
     }
 }
